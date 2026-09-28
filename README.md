@@ -5,6 +5,7 @@
 
 # PyTorch with StatQuest
 3. PyTorch_starter.ipynb - first custom NN & one-parameter training, in-depth starter tutorial
+4. PyTorch_Lightning.ipynb - how to wrap the backbone PyTorch loops & use Lightning with the same dosages/ efficacy example as in #3
 
 # Skills:
 
@@ -16,11 +17,15 @@
 * bridge between theory and implementation (manual -> sklearn)
 * simple (one independent variable) vs multiple linear regression
 
-28 Sep
+27 Sep
 * theory on NN basics (weights & biases initialization, activation functions, hidden layers)
 * the chain rule of derivatives in context of back propagation
 * the most common optimiser: GD: learning late, step; minimum step size, maximum number of steps (derivative in 2D -> gradient in ND)
 * tensors as not just renamed scalars/ vectors/ matrices/ndarrays but as PyTorch objects taking advantage of GPU/TPU hardware acceleration resulting in faster mathematical operations & automatic differentiation (that is a backbone for GD and back proparation)
+
+28 Sep
+* seeing the advantages of using Lightning as a PyTorch wrapper (NN class construction)
+* Datasets, DataLoaders, trainer, tuner for optimal lr
 
 # Environment (private):
 dl_venv
